@@ -1,0 +1,280 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP01
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "FLOOR4_8";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "MFLR8_1";
+		overridemiddletexture = false;
+		viewpositionx = 440.8506f;
+		viewpositiony = 208.4527f;
+		viewscale = 0.4732398f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "CEIL3_3";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "MFLR8_1";
+		defaultbottomtexture = "MFLR8_1";
+		
+		fieldtypes
+		{
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+			}
+			
+			sector
+			{
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 114;
+				activetab = true;
+			}
+		}
+	}
+	
+	MAP03
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "COMPBLUE";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "MFLR8_1";
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
+			}
+		}
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				xpanningceiling = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				rotationfloor = 1;
+				ypanningfloor = 1;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = -5940.957f;
+		viewpositiony = -2728.48f;
+		viewscale = 0.1694625f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsety = 0;
+			backoffsetx = 0;
+			backscalex = 100;
+			gridsize = 32f;
+			background = "";
+			backsource = 0;
+			backscaley = 100;
+		}
+		defaultceiltexture = "CEIL3_3";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "MFLR8_1";
+		defaultbottomtexture = "MFLR8_1";
+	}
+	
+	MAP02
+	{
+		scriptcompiler = "zdoom_acs.cfg";
+		defaultfloortexture = "FLOOR4_8";
+		overrideceilheight = false;
+		
+		resources
+		{
+		}
+		defaulttoptexture = "MFLR8_1";
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 371;
+				activetab = true;
+			}
+		}
+		overridemiddletexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				xpanningceiling = 1;
+				yscaleceiling = 1;
+				yscalefloor = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xpanningfloor = 1;
+				xscalefloor = 1;
+				rotationfloor = 1;
+				ypanningfloor = 1;
+				xscaleceiling = 1;
+			}
+			
+			sidedef
+			{
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
+				offsety_bottom = 1;
+				offsetx_mid = 1;
+			}
+		}
+		viewpositionx = 866.8044f;
+		viewpositiony = -1928.756f;
+		viewscale = 0.1675472f;
+		overridefloortexture = false;
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			background = "";
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			backsource = 0;
+			gridsize = 32f;
+		}
+		defaultceiltexture = "CEIL3_3";
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overridetoptexture = false;
+		custombrightness = 196;
+		overrideceiltexture = false;
+		defaultwalltexture = "MFLR8_1";
+		defaultbottomtexture = "MFLR8_1";
+	}
+}
